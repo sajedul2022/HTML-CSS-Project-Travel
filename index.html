@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog Website</title>
+	<meta name="language" content="English">
+	<meta name="description" content="It is a website about education">
+	<meta name="keywords" content="blog,cms blog">
+	<meta name="author" content="Sajedul_Islam">
+	<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.css">	
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:5,
+		animSpeed:300,
+		pauseTime:2000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+</head>
+
+<body>
+	<div class="headersection templete clear">
+		<a href="index.html">
+			<div class="logo">
+				<img src="images/logo.png" alt="Logo"/>
+				<h2>Travel Finder</h2>
+				<p>Traveler Best Choice</p>
+			</div>
+		</a>
+		
+	</div>
+<div class="navsection templete">
+	<ul>
+		<li><a id="active" href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>	
+		<li><a href="post.html">Travel Info</a></li>	
+		<li><a href="contact.html">Contact</a></li>
+
+	</ul>
+</div>
+
+	
+<div class="slidersection templete clear">
+        <div id="slider">
+            <a href="#"><img src="images/slideshow/5.jpg" alt="nature 1" title="This is slider one " /></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="This is slider Two " /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="This is slider three " /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="This is slider four " /></a>
+        </div>
+
+</div>
+	<div class="contentsection contemplete clear">
+		<div class="maincontent clear">
+			<div class="samepost clear">
+				<h2><a href="">Important information for Travel and health</a></h2>
+				<h4>June 15, 2022, 12:30 PM, By <a href="#">Sajedul_Islam</a></h4>
+				 <a href="#"><img src="images/air2.jpg" alt="post image"/></a>
+				<p>Arrive early and come prepared.We recommend you arrive to the airport at least 3 hours before your scheduled departure for international flights.Check if your destination has travel restrictions. If your destination requires specific travel documents, remember to bring a completed copy with you to the airport.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.
+				</p>
+				<div class="readmore clear">
+					<a href="post.html">Read More</a>
+				</div>
+			</div>
+			<div class="samepost clear">
+				<h2><a href="">Travel and health restrictions for your trip</a></h2>
+				<h4>June 17, 2022, 12:30 PM, By <a href="#">Sajedul_Islam</a></h4>
+				 <img src="images/post2.png" alt="post image"/>
+				<p>
+					We recommend you arrive to the airport at least 3 hours before your scheduled departure for international flights.Check if your destination has travel restrictions. If your destination requires specific travel documents, remember to bring a completed copy with you to the airport.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.
+				</p>
+				<div class="readmore clear">
+					<a href="post.html">Read More</a>
+				</div>
+			</div>
+			<div class="samepost clear">
+				<h2>Something Special In The Air</h2>
+				<h4>June 16, 2022, 12:30 PM, By <a href="#">Sajedul_Islam</a></h4>
+				 <img src="images/post3.jpg" alt="post image"/>
+				<p>
+					We’ve renewed our fleet with hundreds of new planes to bring you a more modern, comfortable and connected experience.Some text will be go here.We recommend you arrive to the airport at least 3 hours before your scheduled departure for international flights.Check if your destination has travel restrictions. If your destination requires specific travel documents, remember to bring a completed copy with you to the airport.Some text will be go here.Some text will be go here.Some text will be go here.
+				</p>
+				<div class="readmore clear">
+					<a href="post.html">Read More</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="sidebar clear">
+			<div class="samesidebar clear">
+				<h2>Categories</h2>
+					<ul>
+						<li><a href="#">Travel</a></li>
+						<li><a href="#">AirPlane</a></li>
+						<li><a href="#">Booking</a></li>
+						<li><a href="#">Information</a></li>
+						<li><a href="#">Health restrictions</a></li>						
+					</ul>
+			</div>
+			
+			<div class="samesidebar clear">
+				<h2>Latest articles</h2>
+					<div class="popular clear">
+						<h3><a href="#">Special In The Air</a></h3>
+						<a href="#"><img src="images/post3.jpg" alt="post image"/></a>
+						<p> At least 3 hours before your scheduled departure for international flights.Check if your destination has travel restrictions. If your destination requires specific travel documents, remember to bring a completed copy with you to the airport.</p>	
+					</div>
+					
+					<div class="popular clear">
+						<h3><a href="#">International flights scheduled.</a></h3>
+						<a href="#"><img src="images/air.jpg" alt="post image"/></a>
+						<p>international flights.Check if your destination has travel restrictions. If your destination requires specific travel documents, remember to bring a completed copy with you to the airport.</p>	
+					</div>
+					
+					<div class="popular clear">
+						<h3><a href="#">Travel documents.</a></h3>
+						<a href="#"><img src="images/air2.jpg" alt="post image"/></a>
+						<p>If your destination requires specific travel documents, remember to bring a completed copy with you to the airport. comfortable and connected experience.</p>	
+					</div>
+					
+					<div class="popular clear">
+						<h3><a href="#">Connected experience.</a></h3>
+						<a href="#"><img src="images/post1.jpg" alt="post image"/></a>
+						<p>We’ve renewed our fleet with hundreds of new planes to bring you a more modern, comfortable and connected experience.Some text will be go here.We recommend you arrive to the airport </p>	
+					</div>
+	
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="footersection templete clear">
+	  <div class="footermenu clear">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Privacy</a></li>
+		</ul>
+	  </div>
+	  <p>&copy; Copyright Sajedul Islam.</p>
+	</div>
+	<div class="fixedicon clear">
+		<a href="http://www.facebook.com"><img src="images/fb.png" alt="Facebook"/></a>
+		<a href="http://www.twitter.com"><img src="images/tw.png" alt="Twitter"/></a>
+		<a href="http://www.linkedin.com"><img src="images/in.png" alt="LinkedIn"/></a>
+		<a href="http://www.google.com"><img src="images/gl.png" alt="GooglePlus"/></a>
+	</div>
+<script type="text/javascript" src="js/scrolltop.js"></script>
+</body>
+</html>
